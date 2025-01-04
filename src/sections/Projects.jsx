@@ -20,7 +20,7 @@ const Projects = () => {
         })
     }
   return (
-    <section className='c-spave my-20 '>
+    <section className='c-space my-20 '>
         <p className='head-text'>My Work</p>
         <div className='grid lg:grid-cols-2 grid-cols-1 gap-5'>
             <div className='flex flex-col gap-5 relative sm:p-10 px-5 py-10 shadow-2xl shadow-black-200'>
