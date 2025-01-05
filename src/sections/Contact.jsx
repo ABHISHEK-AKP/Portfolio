@@ -17,13 +17,13 @@ const Contact = () => {
         e.preventDefault();
         setLoading(true);
         try{
-        emailjs('service_s0f8pwq',
-            'template_cb6z9ie',
+        emailjs('service_odhwfnp',
+            'template_qkj266o',
         {
             from_name: form.name,
             to_name: 'Abhishek',
             from_email: form.email,
-            to_email: 'abhishekkumarpandey2803@gmail',
+            to_email: 'abhishekakp5580@gmail',
             message: form.message
         },
         'OnzEMIh-lhOoPMLUM')
