@@ -25,6 +25,7 @@ const Footer = () => {
             </div>
         </a>
         </div>
+        <p className='text-white-500'>Copyright © 2025 Abhishek Kumar Pandey</p>
     </section>
   )
 }
