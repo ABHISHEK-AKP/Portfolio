@@ -26,9 +26,17 @@ export const navLinks = [
       id: 1,
       name: 'Ashu Sharma',
       position: 'Senior Software Engineer at Upfront Healthcare',
+      img: 'assets/review3.png',
+      review:
+        'I had the pleasure of working with Abhishek Kumar Pandey at Upfront Healthcare, and I can confidently say that he is an exceptional talent in the realm of software development. His dedication to work is unparalleled. He not only takes responsibility for his tasks but consistently thinks through every possible scenario to ensure the best outcomes.',
+    },
+    {
+      id: 3,
+      name: 'Anchal Sharma',
+      position: 'Software Engineer at Upfront Healthcare ',
       img: 'assets/review1.png',
       review:
-        'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+        `One of Abhishek's standout qualities is his proficiency in both backend and frontend development. He possesses a rare blend of technical skill and creativity, making him a valuable asset in any project. His problem-solving abilities are remarkable; he has a unique knack for devising optimized solutions that enhance project performance significantly. This skill set has proven invaluable in handling complex projects, where he has always delivered results that exceed expectations.`,
     },
     {
       id: 2,
@@ -36,23 +44,15 @@ export const navLinks = [
       position: 'Project Manager at Upfront Healthcare',
       img: 'assets/review2.png',
       review:
-        'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
-    {
-      id: 3,
-      name: 'Anchal Sharma',
-      position: 'Software Engineer at Upfront Healthcare ',
-      img: 'assets/review3.png',
-      review:
-        'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+        `Abhishek is a brilliant, dedicated professional whose contributions have been a driving force in our team's success. His ability to handle both backend and frontend challenges with innovative and optimized solutions is exceptional. I have no doubt that he will continue to excel and be a valuable asset to any team.`,
     },
     {
       id: 4,
-      name: '',
-      position: 'CEO of BrightStar Enterprises',
+      name: 'Vijaita Kashyap',
+      position: 'Professor at Chitkara University',
       img: 'assets/review4.png',
       review:
-        'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+        'Abhishek is an excellent communicator, able to articulate complex ideas clearly and effectively. This, combined with his fast learning curve and brilliant research capabilities, means he can implement new, cutting-edge technologies and strategies with impressive speed and efficiency. Which is a huge plus for any organization.',
     },
   ];
   
@@ -282,7 +282,41 @@ export const navLinks = [
       pos: 'Founder',
       duration: '2020 - 2022',
       title: "Created and executed internet ordering platform leading to 20% order completion rate gain. Built and managed a team of 5 in support for marketing & sales, which led to using social media techniques that saw an increase by 40% approx. Built strategic relationships with student clubs and organizations, resulting in high-volume order placements; increased revenue during peak periods by 25%.",
-      icon: '/assets/notion.svg',
+      icon: '/assets/PEClogo.png',
       animation: 'salute',
     },
+  ];
+  export const educationBackground = [
+    {
+      id: 1,
+      degree: 'Master Of Engineering in Computer Engineering ',
+      institute: 'University Of Guelph',
+      duration: '2024 - Present',
+      grade: 'CGPA: 3.6/4.0',
+      icon: '/assets/degree-cap.png',
+    },
+    {
+      id: 2,
+      degree: 'Bachelor Of Engineering in Computer Science Engineering',
+      institute: 'Chitkara University',
+      duration: '2019 - 2023',
+      grade: 'CGPA: 9.69/10.0',
+      icon: '/assets/study-program.png',
+    },
+    {
+      id: 3,
+      degree: '12 th Grade',
+      institute: 'Goverment Model Senior Secondary School Sec-16, Chandigarh',
+      duration: '2018 - 2019',
+      grade: 'Percentage: 72%',
+      icon: '/assets/artificial-intelligence.png',
+    },
+    {
+      id: 4,
+      degree: '10 th Grade',
+      institute: 'Manav Mangal School',
+      duration: '2016 - 2017',
+      grade: 'CGPA: 10.0/10.0',
+      icon: '/assets/open-book.png',
+    }
   ];

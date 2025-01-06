@@ -7,6 +7,7 @@ import Client from './sections/Client'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 import Experience from './sections/Experience'
+import Education from './sections/Education'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Projects />
       <Client />
       <Experience />
+      <Education />
       <Contact />
       <Footer />
     </main>
