@@ -48,7 +48,7 @@ const Contact = () => {
             <div className='contact-container'>
             <h3 className='head-text'>Let's Connect</h3>
             <p className='text-white-600 text-lg mt-3'>You are looking for a developer or have a project in mind? Let's connect and create something amazing together.</p>
-            <form ref={formRef} onSubmit={handleSubmit} className='flex flex-col mt-12 space-y-7'>
+            <form ref={formRef} onSubmit={handleSubmit} className='flex flex-col mt-7 space-y-3'>
                 <label className='space-y-3'>
                     <span className='field-label'>Full Name</span>
                     <input 
