@@ -2,7 +2,7 @@
 
 A modern, interactive 3D portfolio built with **React**, **Vite**, and **Three.js**. This immersive web experience showcases projects, skills, and experience through real-time 3D animations, responsive design, and fluid interactions.
 
-🔗 **[View Live Portfolio →](https://your-portfolio-url.com)**
+🔗 **[View Live Portfolio →]([https://abhishekportfolio-61sq.onrender.com])**
 
 ---
 
@@ -67,5 +67,5 @@ Portfolio/
 ## 👨‍💻 Contact
 
 **Abhishek Kumar Pandey**  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile) | [GitHub](https://github.com/ABHISHEK-AKP) | [Live Demo](https://your-portfolio-url.com)
+📧 abhishekkumarpandey2803@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/abhishek-kumar-pandey-se/) | [GitHub](https://github.com/ABHISHEK-AKP) | [Live Demo]([https://your-portfolio-url.com](https://abhishekportfolio-61sq.onrender.com))
