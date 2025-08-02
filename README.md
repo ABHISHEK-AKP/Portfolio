@@ -68,4 +68,4 @@ Portfolio/
 
 **Abhishek Kumar Pandey**  
 📧 abhishekkumarpandey2803@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/abhishek-kumar-pandey-se/) | [GitHub](https://github.com/ABHISHEK-AKP) | [Live Demo]([https://your-portfolio-url.com](https://abhishekportfolio-61sq.onrender.com))
+🔗 [LinkedIn](https://www.linkedin.com/in/abhishek-kumar-pandey-se/) | [GitHub](https://github.com/ABHISHEK-AKP) | [Live Demo](https://abhishekportfolio-61sq.onrender.com)
