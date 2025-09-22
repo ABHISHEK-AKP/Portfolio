@@ -62,7 +62,7 @@ export const navLinks = [
       desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
       subdesc:
         'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      // href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      href: 'https://github.com/ABHISHEK-AKP',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
@@ -99,7 +99,7 @@ export const navLinks = [
       desc: '•	Created an AI-driven traffic management system integrating Python, Scikit-Fuzzy, and SUMO.Containerized the system with Docker for reproducible simulation environments.Implemented deterministic decision-making algorithms for IoT sensors to optimize routing & load balancing.',
       subdesc:
         'Tech: Python, Scikit-Fuzzy, SUMO, IoT, Bash, Docker',
-      // href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      href: 'https://github.com/ABHISHEK-AKP',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -136,7 +136,7 @@ export const navLinks = [
       desc: 'Implemented a collaborative filtering model in Python using Pandas, NumPy, and Scikit-learn, achieving 87% precision in recommendations.Designed data pipelines for processing large datasets efficiently.',
       subdesc:
         '•	Skills Used: Python, Pandas, NumPy, Scikit-learn, Data Processing, Machine Learning',
-      // href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      href: 'https://github.com/ABHISHEK-AKP',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -147,7 +147,28 @@ export const navLinks = [
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
       spotlight: '/assets/spotlight3.png',
-      
+      ags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
     }
   ];
   

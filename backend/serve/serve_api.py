@@ -3,6 +3,7 @@ import torch, json
 import torch.nn as nn
 from fastapi import FastAPI
 from pydantic import BaseModel
+import os
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -81,7 +82,6 @@ class MLP(nn.Module):
     def __init__(self, n_embd, dropout):
         super().__init__()
         self.net = nn.Sequential(
-            nn.LayerNorm(n_embd),
             nn.Linear(n_embd, 4*n_embd),
             nn.GELU(),
             nn.Linear(4*n_embd, n_embd),
@@ -102,7 +102,11 @@ class Block(nn.Module):
         return x
 
 # load checkpoint
-ckpt = torch.load("out/tiny_gpt.pt", map_location=DEVICE)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # backend/
+PROJECT_ROOT = os.path.dirname(BASE_DIR)  # portfolio/
+
+ckpt_path = os.path.join(PROJECT_ROOT, "backend/out", "tiny_gpt.pt")
+ckpt = torch.load(ckpt_path, map_location=DEVICE)
 cfg = ckpt["config"]
 model = TinyGPT(cfg["vocab_size"], cfg["n_embd"], cfg["n_head"], cfg["n_layer"], cfg["block_size"], cfg["dropout"]).to(DEVICE)
 model.load_state_dict(ckpt["model_state_dict"])
