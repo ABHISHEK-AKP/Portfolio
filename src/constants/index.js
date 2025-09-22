@@ -95,10 +95,10 @@ export const navLinks = [
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'Smart Traffic Light Controller',
+      desc: '•	Created an AI-driven traffic management system integrating Python, Scikit-Fuzzy, and SUMO.Containerized the system with Docker for reproducible simulation environments.Implemented deterministic decision-making algorithms for IoT sensors to optimize routing & load balancing.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+        'Tech: Python, Scikit-Fuzzy, SUMO, IoT, Bash, Docker',
       // href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
@@ -132,10 +132,10 @@ export const navLinks = [
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Movie Recommender System',
+      desc: 'Implemented a collaborative filtering model in Python using Pandas, NumPy, and Scikit-learn, achieving 87% precision in recommendations.Designed data pipelines for processing large datasets efficiently.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+        '•	Skills Used: Python, Pandas, NumPy, Scikit-learn, Data Processing, Machine Learning',
       // href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
@@ -147,103 +147,8 @@ export const navLinks = [
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
       spotlight: '/assets/spotlight3.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-      subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      // href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-      texture: '/textures/project/project4.mp4',
-      logo: '/assets/project-logo4.png',
-      logoStyle: {
-        backgroundColor: '#0E1F38',
-        border: '0.2px solid #0E2D58',
-        boxShadow: '0px 0px 60px 0px #2F67B64D',
-      },
-      spotlight: '/assets/spotlight4.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-      subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      // href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: '/assets/spotlight5.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
+      
+    }
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -262,7 +167,7 @@ export const navLinks = [
       id: 1,
       name: 'Upfront Healthcare',
       pos: 'Software Engineer',
-      duration: '2023 - 2024',
+      duration: 'June,2023 - July,2024',
       title: "Full stack developer with diverse project exposure. Developed innovative code for diverse software projects. Integrated third-party apps enhancing software features and performance. Leveraged research and data to address project requirements and challenges. Built a strong rapport with seniors and mentors.",
       icon: '/assets/upfront_healthcare_logo.jpeg',
       animation: 'victory',
@@ -271,7 +176,7 @@ export const navLinks = [
       id: 2,
       name: 'Upfront Healthcare',
       pos: 'Software Engineer Intern',
-      duration: '2022 - 2023',
+      duration: 'April,2022 - May,2023',
       title: "Performed root cause analysis, fixed defects. Maximized learning opportunities in software engineering. Demonstrated proficiency in crafting MySQL queries, contributed to effective database management and optimization. ",
      icon: '/assets/upfront_healthcare_logo.jpeg',
       animation: 'clapping',
@@ -280,7 +185,7 @@ export const navLinks = [
       id: 3,
       name: 'PEC MART',
       pos: 'Founder',
-      duration: '2020 - 2022',
+      duration: 'January,2020 - December,2022',
       title: "Created and executed internet ordering platform leading to 20% order completion rate gain. Built and managed a team of 5 in support for marketing & sales, which led to using social media techniques that saw an increase by 40% approx. Built strategic relationships with student clubs and organizations, resulting in high-volume order placements; increased revenue during peak periods by 25%.",
       icon: '/assets/PEClogo.png',
       animation: 'salute',
@@ -291,7 +196,7 @@ export const navLinks = [
       id: 1,
       degree: 'Master Of Engineering in Computer Engineering ',
       institute: 'University Of Guelph',
-      duration: '2024 - Present',
+      duration: 'September,2024 - August,2025',
       grade: 'CGPA: 3.6/4.0',
       icon: '/assets/degree-cap.png',
     },
@@ -299,7 +204,7 @@ export const navLinks = [
       id: 2,
       degree: 'Bachelor Of Engineering in Computer Science Engineering',
       institute: 'Chitkara University',
-      duration: '2019 - 2023',
+      duration: 'August,2019 - May,2023',
       grade: 'CGPA: 9.69/10.0',
       icon: '/assets/study-program.png',
     },
